@@ -1,26 +1,26 @@
 class DroidsMem < Formula
   desc "Persistent cross-session memory + native code graph for coding agents"
   homepage "https://github.com/SamuelMolero26/droids-mem"
-  version "1.1.1"
+  version "1.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/SamuelMolero26/droids-mem/releases/download/v1.1.1/droids-mem-v1.1.1-darwin-arm64"
-      sha256 "60a76eff746ef899386e57dc23e789dd4626b4fc9491671b13ab0523b5debd2f"
+      url "https://github.com/SamuelMolero26/droids-mem/releases/download/v1.2.0/droids-mem-v1.2.0-darwin-arm64"
+      sha256 "85bd9f4648ac2a485b1cb51b3f9b4adfce119f525bfe1fd6b32d30b839fdc5eb"
     else
-      url "https://github.com/SamuelMolero26/droids-mem/releases/download/v1.1.1/droids-mem-v1.1.1-darwin-amd64"
-      sha256 "3b9872b769351187ede92f0ad3658303fc532d9aef4f34c1eeb22380b7cb8fd9"
+      url "https://github.com/SamuelMolero26/droids-mem/releases/download/v1.2.0/droids-mem-v1.2.0-darwin-amd64"
+      sha256 "278c57d0e3a5aae069692dc34bf9cd1c04ec07983a1da4efdd40974a0ed97948"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/SamuelMolero26/droids-mem/releases/download/v1.1.1/droids-mem-v1.1.1-linux-arm64"
-      sha256 "961f4b33ff97c1e26813258cb02bbb10ef9e8fb16249b154e346631d96c41d7f"
+      url "https://github.com/SamuelMolero26/droids-mem/releases/download/v1.2.0/droids-mem-v1.2.0-linux-arm64"
+      sha256 "e4a08300fbfb7a03ccbfe9298f5adb01e1830a00f62cb1eecefe686d6f6f9af7"
     else
-      url "https://github.com/SamuelMolero26/droids-mem/releases/download/v1.1.1/droids-mem-v1.1.1-linux-amd64"
-      sha256 "cd203489dd554661e37ac29db170cc42a4f35f5dd6ea56d408d7c37f258ab512"
+      url "https://github.com/SamuelMolero26/droids-mem/releases/download/v1.2.0/droids-mem-v1.2.0-linux-amd64"
+      sha256 "fa59e78fb649047ac6c1f09dcda464cee455e1a908b134c4227e9949a6d3a4c5"
     end
   end
 
